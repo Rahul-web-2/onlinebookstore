@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Dashboard</title>
+</head>
+<body>
+    <h2>User Dashboard</h2>
+<div>
+    <a href="/logout">Logout</a>
+</div>
+
+<h3>Available Books</h3>
+<ul>
+  <li th:each="book : ${books}" th:text="${book.title} + ' by ' + ${book.author} + ' - ₹' + ${book.price}"></li>
+</ul>
+
+</body>
+</html>
