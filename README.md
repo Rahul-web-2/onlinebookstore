@@ -13,7 +13,6 @@
     <a href="https://github.com/Rahul-web-2/onlinebookstore/issues">
       <img src="https://img.shields.io/github/issues/Rahul-web-2/onlinebookstore.svg" alt="GitHub issues" />
     </a>
-    <img src="https://img.shields.io/badge/Java-SpringBoot-Thymeleaf-blue" alt="Tech Stack" />
     <img src="https://img.shields.io/badge/Database-H2-green" alt="Database" />
   </p>
 </p>
